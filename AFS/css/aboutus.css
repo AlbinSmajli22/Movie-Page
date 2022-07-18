@@ -1,0 +1,212 @@
+body{
+  background-color:rgb(37, 39, 70);
+}
+.b{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.b .h1 {
+  text-align: center;
+  color: gray;
+  font-size: 55px;
+  margin-left: 10px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.b a{
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.b .login{
+  font-size: 15px;
+}
+.b a:hover{
+color: white;
+}
+
+.pershkrim p{
+  color: orangered;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.footer{
+  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }  
+  
+  .fa-facebook {
+    margin-left: 700px;
+    color: rgb(5, 71, 176);
+  }
+  
+  
+  .fa-twitter {
+    color: rgb(38, 105, 212);
+  }
+  .fa-instagram {
+    color: orangered;
+  }
+  .drejtat{    
+    margin-top: 20px;
+    float: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  @media (max-width: 1024px){
+    .b .h1{
+      font-size: 25px;
+    }
+    .b a{
+      padding: 10px 12px;
+      font-size: 18px;
+      color:black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .b .login{
+      font-size: 12px;
+    }
+    .pershkrim p{
+      color: orangered;
+      margin: 5px;
+      margin-bottom: 15px;
+      padding: 5px;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: black;
+      border-radius: 20px;
+      height: 800px;
+      margin-bottom: 200px;
+    }
+    .footer .drejtat{
+      font-size: 15px;
+      margin-top: 20px;
+      float: left;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .fa {
+      padding: 5px;
+      font-size: 20px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+    }  
+    .fa-facebook {
+      margin-left: 150px;
+      color: rgb(5, 71, 176);
+    }
+    
+  }
+  @media (max-width: 767px){
+    .b .h1{
+      font-size: 20px;
+    }
+    .b a{
+      padding: 8px 10px;
+      font-size: 14px;
+      color:black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .b .login{
+      font-size: 10px;
+    }
+    .pershkrim p{
+      color: orangered;
+      margin: 5px;
+      margin-bottom: 15px;
+      padding: 5px;
+      font-size: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: black;
+      border-radius: 20px;
+      height: 800px;
+      margin-bottom: 200px;
+    }
+    .footer .drejtat{
+      font-size: 12px;
+      margin-top: 20px;
+      float: left;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .fa {
+      padding: 5px;
+      font-size: 15px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+    }  
+    .fa-facebook {
+      margin-left: 100px;
+      color: rgb(5, 71, 176);
+    }
+  }
+  @media (max-width: 480px){
+    .b .h1{
+      font-size: 15px;
+    }
+    .b a{
+      padding: 6px 8px;
+      font-size: 10px;
+      color:black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .b .login{
+      font-size: 8px;
+    }
+    .pershkrim p{
+      color: orangered;
+      margin: 5px;
+      padding: 5px;
+      font-size: 8px;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: black;
+      border-radius: 20px;
+      height: 900px;
+      margin-bottom: 100px;
+    }
+    .footer .drejtat{
+      font-size: 8px;
+      margin-top: 10px;
+      float: left;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .fa {
+      padding: 5px;
+      font-size: 10px;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+    }  
+    .fa-facebook {
+      margin-left: 50px;
+      color: rgb(5, 71, 176);
+    }
+  }

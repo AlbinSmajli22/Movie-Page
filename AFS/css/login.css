@@ -1,0 +1,357 @@
+body{
+    background-color:rgb(37, 39, 70);
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bars a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+       
+}
+#firstmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.main{
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+p{
+    text-align: center;
+    background-color: none;
+    color: orangered;
+    font-size: 30px;
+    padding-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#Username{
+    padding-left: 20px;
+    margin-left: 65px;
+    width: 350px;
+    height: 40px;
+    background: #f2f2f2 ;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+    #password{
+    padding-left: 20px;
+    margin-left: 65px;
+    width: 350px;
+    height: 40px;
+    background: #f2f2f2 ;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    /*box-sizing: border-box;*/
+}
+#submit{
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-left: 67px;
+    width: 370px;
+    height: 40px;
+    background: blue;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-size: 30px;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+#singin{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: orangered; 
+    margin-left: 120px; 
+}
+#fopass{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: orangered; 
+    margin-left: 100px; 
+    
+}
+form{
+    background-color: black;
+}
+.ikona1{
+    margin-top:90px ;
+    margin-left: 130px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+ 
+}
+.ikona2{
+    margin-top:-30px ;
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  
+    
+}
+.ikona3{
+    margin-top:-30px ;
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .bars a{
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+           
+    }
+    #firstmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    
+    
+    .main{
+        background-color: black;
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    p{
+        text-align: center;
+        background-color: none;
+        color: orangered;
+        font-size: 20px;
+        padding-left: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #Username{
+        padding-left: 20px;
+        margin-left: 65px;
+        width: 250px;
+        height: 35px;
+        background: #f2f2f2 ;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+    
+        #password{
+        padding-left: 20px;
+        margin-left: 65px;
+        width: 250px;
+        height: 35px;
+        background: #f2f2f2 ;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+    }
+    #submit{
+        margin-top: 10px;
+        padding-left: 20px;
+        margin-left: 67px;
+        width: 270px;
+        height: 35px;
+        background: blue;
+        border-radius: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: wheat;
+        font-size: 30px;
+        border: none;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    #singin{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: orangered; 
+        margin-left: 90px; 
+        font-size: 15px;
+    }
+    #fopass{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: orangered; 
+        margin-left: 70px;
+        font-size: 15px; 
+        
+    }
+    form{
+        background-color: black;
+    }
+    .ikona1{
+        margin-top:30px ;
+        margin-left: 90px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+     
+    }
+    .ikona2{
+        margin-top:-30px ;
+        margin-left: 40px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+      
+        
+    }
+    .ikona3{
+        margin-top:-30px ;
+        margin-left: 40px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        
+}
+}
+@media (max-width: 480px){
+    .bars a{
+        padding: 8px 10px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+           
+    }
+    #firstmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    
+    
+    .main{
+        background-color: black;
+        width: 300px;
+        height: 250px;
+        border-radius: 30px;
+    }
+    p{
+        text-align: center;
+        background-color: none;
+        color: orangered;
+        font-size: 15px;
+        padding-left: 20px;
+        margin-left: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #Username{
+        padding-left: 20px;
+        margin-left: 65px;
+        width: 150px;
+        height: 20px;
+        background: #f2f2f2 ;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        font-size: 10px;
+    }
+    
+        #password{
+        padding-left: 20px;
+        margin-left: 65px;
+        width: 150px;
+        height: 20px;
+        background: #f2f2f2 ;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        font-size: 10px;
+    }
+    #submit{
+        margin-top: 5px;
+        padding-left: 20px;
+        margin-left: 67px;
+        width: 150px;
+        height: 20px;
+        background: blue;
+        border-radius: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: wheat;
+        font-size: 15px;
+        border: none;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    #singin{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: orangered; 
+        margin-left: 80px; 
+        font-size: 10px;
+    }
+    #fopass{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: orangered; 
+        margin-left: 30px;
+        font-size: 10px; 
+        
+    }
+    form{
+        background-color: black;
+    }
+    .ikona1{
+        margin-top:55px ;
+        margin-left: 60px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+     
+    }
+    .ikona2{
+        margin-top:-30px ;
+        margin-left: 40px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+      
+        
+    }
+    .ikona3{
+        margin-top:-30px ;
+        margin-left: 40px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        
+}
+}
